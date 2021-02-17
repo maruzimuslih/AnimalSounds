@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kbn"
+    tools:context="com.example.lenovo.animalsounds.MenuActivity">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:text="ANIMAL SOUNDS"
+        android:textColor="#0b3602"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_rumah"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="81dp"
+        android:text="Mari Mengenal Suara Hewan"
+        android:textColor="#0b3602"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_rumah"
+        android:layout_width="150sp"
+        android:layout_height="50sp"
+        android:layout_above="@+id/btn_hutan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="101dp"
+        android:background="@drawable/button_background"
+        android:text="peliharaan"
+        android:textColor="#ffff" />
+
+    <Button
+        android:id="@+id/btn_peternakan"
+        android:layout_width="150sp"
+        android:layout_height="50sp"
+        android:layout_above="@+id/btn_hutan"
+        android:layout_alignLeft="@+id/btn_rumah"
+        android:layout_alignStart="@+id/btn_rumah"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/button_background"
+        android:text="peternakan"
+        android:textColor="#ffff" />
+
+    <Button
+        android:id="@+id/btn_hutan"
+        android:layout_width="150sp"
+        android:layout_height="50sp"
+        android:layout_alignLeft="@+id/btn_peternakan"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btn_peternakan"
+        android:layout_marginBottom="139dp"
+        android:background="@drawable/button_background"
+        android:text="hutan"
+        android:textColor="#ffff" />
+
+</RelativeLayout>

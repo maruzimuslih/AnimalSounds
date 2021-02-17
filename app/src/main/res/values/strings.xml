@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Animal Sounds</string>
+    <string name="rumah">Hewan Peliharaan</string>
+    <string name="peternakan">Hewan Peternakan</string>
+    <string name="hutan">Hewan Hutan</string>
+</resources>
